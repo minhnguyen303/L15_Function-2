@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai_2</title>
+</head>
+<body>
+<h1 id="h1" onclick="my(5),display()">H1 HH1 HHH1</h1>
+<script>
+    function my(n){
+        return ++n;
+    }
+
+    function display(){
+        document.getElementById('h1').innerText = my(5);
+    }
+</script>
+</body>
+</html>

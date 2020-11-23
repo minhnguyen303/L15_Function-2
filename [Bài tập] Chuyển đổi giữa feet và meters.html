@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Chuyển đổi giữa feet và meters</title>
+</head>
+<body>
+<button onclick="footToMeter(+prompt('Nhập số muốn chuyển đổi:'))">Foot to Meter</button>
+<button onclick="meterToFoot(+prompt('Nhập số muốn chuyển đổi:'))">Meter to Foot</button>
+<script>
+
+    function footToMeter(foot) {
+        alert(parseFloat(0.305 * foot).toFixed(3));
+    }
+
+    function meterToFoot(meter) {
+        alert(parseFloat(3.279 * meter).toFixed(3));
+    }
+
+</script>
+</body>
+</html>

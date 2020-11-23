@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Hàm kiểm tra số nguyên tố</title>
+</head>
+<body>
+<script>
+
+    let number = +prompt("Nhập số để kiểm tra:", 0);
+    let isSNT;
+
+    function isPrime(N) {
+        isSNT = true;
+        if (N <= 10000 && N > 1){
+            for (let i = 2; i < N; i++){
+                if ((N%i) == 0 && N !== i){
+                    isSNT = false;
+                }
+            }
+            if(isSNT)
+                alert(N + " là số nguyên tố!");
+            else
+                alert(N + " không phải là số nguyên tố!");
+        }
+        else {
+            alert(N + " không phải là số nguyên tố!");
+        }
+    }
+
+    isPrime(number);
+
+</script>
+</body>
+</html>

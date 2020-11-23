@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[*Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm</title>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>Add New Product</legend>
+        <input id="inputProduct" type="text" placeholder="New Product">
+        <button type="button" onclick="addProduct(document.getElementById('inputProduct').value)">Add</button>
+    </fieldset>
+</form>
+<form action="">
+    <fieldset>
+        <legend>Display All Product</legend>
+        <table id="table" border="1px solid"></table>
+    </fieldset>
+</form>
+<script>
+
+    let products = ['Stick', 'Diamond Sword', 'Axe Wooden', 'Grass Block'];
+
+    function addProduct(value){
+        products.push(value);
+        alert("Đã thêm sản phẩm " + value);
+        display();
+    }
+
+    function updateProduct(index){
+        current = index;
+        products[current][0] = students[index][0];
+        display();
+    }
+
+    function deleteProduct(index){
+
+    }
+
+    function display(){
+        let table = '';
+        table += "<tr><th>STT</th><th>Product</th><th>Action</th></tr>"
+        for (let p in products){
+            table+= `<tr>
+                        <td>${p}</td>
+                        <td id="product-name">${products[p]}</td>
+                        <td><button type="button" onclick="updateProduct(${p})">Edit</button></td>
+                     </tr>`
+        }
+        document.getElementById('table').innerHTML = table;
+    }
+
+    display();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai_5</title>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <input id="in" type="text" placeholder="Polaris Aldebaran Deneb Vega Altair Dubhe Regulus">
+        <button type="button" onclick="my(document.getElementById('in').value)">Tìm kiếm</button>
+        <label id="show" for="in">NULL</label>
+    </fieldset>
+</form>
+<script>
+    let arr1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let arr2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+
+    function my(value){
+        for (let i in arr1){
+            if (value == arr1[i]){
+                document.getElementById('show').innerText = arr2[i];
+                return arr2[i];
+            }
+        }
+        document.getElementById('show').innerText = "Không tìm thấy!";
+        return "Không tìm thấy!";
+    }
+</script>
+</body>
+</html>
