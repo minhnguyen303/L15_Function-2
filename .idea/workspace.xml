@@ -24,6 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../L11_bt_hien-thi-cac-so-nguyen-dau-tien" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -38,7 +39,7 @@
       <workItem from="1606093581135" duration="3266000" />
       <workItem from="1606102073005" duration="233000" />
       <workItem from="1606104256890" duration="1658000" />
-      <workItem from="1606110731258" duration="14171000" />
+      <workItem from="1606110731258" duration="15729000" />
     </task>
     <servers />
   </component>
