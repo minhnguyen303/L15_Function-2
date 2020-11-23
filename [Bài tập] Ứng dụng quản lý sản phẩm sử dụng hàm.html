@@ -16,13 +16,14 @@
     <fieldset>
         <legend>Display All Product</legend>
         <input id="inputEdit" type="text" placeholder="Edit product" disabled="disabled">
-        <button onclick="editProduct(document.getElementById('inputEdit'))" type="button">Sửa</button>
+        <button onclick="updateProduct(document.getElementById('inputEdit').value)" type="button">Sửa</button>
         <table id="table" border="1px solid"></table>
     </fieldset>
 </form>
 <script>
 
     let products = ['Stick', 'Diamond Sword', 'Axe Wooden', 'Grass Block'];
+    let curIndex = -1;
 
     function addProduct(value){
         products.push(value);
@@ -31,17 +32,21 @@
     }
 
     function editProduct(index){
-        set
+        curIndex = index;
+        document.getElementById('inputEdit').value = products[index];
+        document.getElementById('inputEdit').disabled = false;
+        document.getElementById('inputEdit').select();
     }
 
-    function updateProduct(index){
-        // current = index;
-        // products[current][0] = students[index][0];
+    function updateProduct(value){
+        products[curIndex] = value;
+        document.getElementById('inputEdit').disabled = true;
+        curIndex = -1;
         display();
     }
 
     function deleteProduct(index){
-        products.slice(index, 1)
+        products.splice(index, 1)
         display();
     }
 
@@ -52,7 +57,7 @@
             table+= `<tr>
                         <td>${p}</td>
                         <td id="product-name" onclick="editProduct('${p}')">${products[p]}</td>
-                        <td><button type="button" onclick="updateProduct(${p})">Delete</button></td>
+                        <td><button type="button" onclick="deleteProduct(${p})">Delete</button></td>
                      </tr>`
         }
         document.getElementById('table').innerHTML = table;
