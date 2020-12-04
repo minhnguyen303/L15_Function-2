@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2db3986a-e415-44af-b9a1-d29d78d2f0df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02/Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02/Bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02/Bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02/Bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02/Bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02/Bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02/Bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Bài tập] Luyện tập tạo và sử dụng hàm 02/Bai_9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +74,25 @@
       <workItem from="1606110731258" duration="15768000" />
       <workItem from="1606130133705" duration="1040000" />
       <workItem from="1606140941985" duration="2520000" />
-      <workItem from="1606145709807" duration="280000" />
+      <workItem from="1606145709807" duration="2169000" />
+      <workItem from="1606185868950" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="208" key="#Notifications" timestamp="1606141892755">
